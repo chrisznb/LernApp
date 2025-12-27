@@ -1,0 +1,202 @@
+[
+  {
+    "front": "Formel: Zinseszins - Endkapital berechnen",
+    "back": "B(t) = B₀ × (1 + r)ᵗ\n\nB(t) = Endkapital nach t Jahren\nB₀ = Anfangskapital\nr = Zinssatz (als Dezimalzahl, z.B. 0.04 für 4%)\nt = Anzahl der Jahre\n\n📝 WebApp-Tauglich: JA\n✏️ Papier empfohlen: Für komplexe Zahlen",
+    "card_type": "basic",
+    "tags": ["mathe", "zinsrechnung", "formel"]
+  },
+  {
+    "front": "Formel: Zeit bis zur Verdopplung des Kapitals",
+    "back": "t = ln(2) / ln(1 + r)\n\noder umgestellt:\n2 × B₀ = B₀ × (1 + r)ᵗ\n→ 2 = (1 + r)ᵗ\n→ ln(2) = t × ln(1 + r)\n→ t = ln(2) / ln(1 + r)\n\n📝 WebApp-Tauglich: JA (Konzept)\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "zinsrechnung", "formel", "logarithmus"]
+  },
+  {
+    "front": "Formel: Benötigter Zinssatz für Verdopplung in t Jahren",
+    "back": "r = 2^(1/t) - 1\n\nHerleitung:\n2 = (1 + r)ᵗ\n→ 2^(1/t) = 1 + r\n→ r = 2^(1/t) - 1\n\nErgebnis als Prozentsatz: r × 100%\n\n📝 WebApp-Tauglich: JA (Konzept)\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "zinsrechnung", "formel"]
+  },
+  {
+    "front": "Lineare Nachfragefunktion aufstellen - Was brauchst du?",
+    "back": "Du brauchst 2 Punkte (p₁, x₁) und (p₂, x₂)\n\nSchritte:\n1. Steigung berechnen: m = (x₂ - x₁)/(p₂ - p₁)\n2. Allgemeine Form: x(p) = m × p + b\n3. b berechnen mit einem Punkt: b = x₁ - m × p₁\n\nAlternativ: Punkt-Steigungsform verwenden\n\n📝 WebApp-Tauglich: JA (Schritte merken)\n✏️ Papier empfohlen: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "nachfrage", "lineare-funktion"]
+  },
+  {
+    "front": "Formel: Preiselastizität der Nachfrage",
+    "back": "ε(p) = (dx/dp) × (p/x)\n\ndx/dp = Ableitung der Nachfragefunktion nach p\np = aktueller Preis\nx = aktuelle Nachfrage bei diesem Preis\n\nInterpretation:\n|ε| > 1: elastische Nachfrage (preiselastisch)\n|ε| = 1: einheitselastisch\n|ε| < 1: unelastische Nachfrage (preisunelastisch)\n\n📝 WebApp-Tauglich: JA (Formel + Interpretation)\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "elastizität", "nachfrage", "formel"]
+  },
+  {
+    "front": "Was bedeutet eine Preiselastizität von ε = -2.5?",
+    "back": "Interpretation:\n\n|ε| = 2.5 > 1 → Elastische Nachfrage\n\nBedeutung: Wenn der Preis um 1% steigt, sinkt die Nachfrage um 2.5%\n\nDas negative Vorzeichen ist normal (Gesetz der Nachfrage: höherer Preis → niedrigere Nachfrage)\n\nPraktisch: Die Nachfrage reagiert stark auf Preisänderungen\n\n📝 WebApp-Tauglich: JA",
+    "card_type": "basic",
+    "tags": ["mathe", "elastizität", "interpretation"]
+  },
+  {
+    "front": "Ableitung von Exponentialfunktionen: Formel für f(x) = a × e^(bx)",
+    "back": "f'(x) = a × b × e^(bx)\n\nBeispiel: f(x) = -40e^(-0.03x)\nf'(x) = -40 × (-0.03) × e^(-0.03x)\nf'(x) = 1.2 × e^(-0.03x)\n\nWichtig: Der Exponent b wird als Faktor nach vorne gezogen!\n\n📝 WebApp-Tauglich: JA",
+    "card_type": "basic",
+    "tags": ["mathe", "ableitung", "exponentialfunktion", "formel"]
+  },
+  {
+    "front": "Grenzwert: Was ist der Grenzwert von e^(-x) für x → ∞?",
+    "back": "lim(x→∞) e^(-x) = 0\n\nBegründung:\ne^(-x) = 1/e^x\n\nWenn x gegen unendlich geht, geht e^x gegen unendlich,\nalso geht 1/e^x gegen 0.\n\nAnwendung: Sättigungswerte bei Konsum-/Produktionsfunktionen\n\n📝 WebApp-Tauglich: JA",
+    "card_type": "basic",
+    "tags": ["mathe", "grenzwert", "exponentialfunktion"]
+  },
+  {
+    "front": "Kostenfunktion aus Produktionsfunktion herleiten - Schritte",
+    "back": "Gegeben: Produktionsfunktion x(r) und Faktorpreis pᵣ\n\nSchritte:\n1. Produktionsfunktion nach r auflösen: r(x)\n2. Variable Kosten: Cᵥ(x) = pᵣ × r(x)\n3. Gesamtkosten: C(x) = Cᵥ(x) + Cₓ (fixe Kosten)\n\nBeispiel: x = √(2r - 50)\n→ x² = 2r - 50\n→ r = (x² + 50)/2\n→ Cᵥ(x) = 4 × (x² + 50)/2 = 2x² + 100\n\n📝 WebApp-Tauglich: Schritte JA\n✏️ Papier NÖTIG: Für Umformung",
+    "card_type": "basic",
+    "tags": ["mathe", "kostenfunktion", "produktionsfunktion"]
+  },
+  {
+    "front": "Wie zeigst du, dass eine Funktion progressiv steigend ist?",
+    "back": "Eine Funktion ist progressiv steigend, wenn:\n\n1. Bedingung: f'(x) > 0 (steigend)\n2. Bedingung: f''(x) > 0 (konvex/links-gekrümmt)\n\nBei Kostenfunktionen:\n→ C'(x) > 0 (Kosten steigen)\n→ C''(x) > 0 (Kosten steigen überproportional)\n\nPraktisch: Zweite Ableitung bilden und Vorzeichen prüfen\n\n📝 WebApp-Tauglich: Konzept JA\n✏️ Papier NÖTIG: Für Nachweis",
+    "card_type": "basic",
+    "tags": ["mathe", "kostenfunktion", "ableitung", "konvexität"]
+  },
+  {
+    "front": "Formel: Grenzkosten, Durchschnittskosten (Stückkosten), variable Stückkosten",
+    "back": "Grenzkosten: C'(x) = dC/dx\n→ Kosten für die nächste zusätzliche Einheit\n\nStückkosten (Durchschnittskosten): c(x) = C(x)/x\n→ Kosten pro Einheit\n\nVariable Stückkosten: cᵥ(x) = Cᵥ(x)/x\n→ Variable Kosten pro Einheit\n\nFixe Stückkosten: cₓ(x) = Cₓ/x\n\n📝 WebApp-Tauglich: JA",
+    "card_type": "basic",
+    "tags": ["mathe", "kosten", "grenzkosten", "stückkosten", "formel"]
+  },
+  {
+    "front": "Betriebsoptimum vs. Betriebsminimum - Was ist der Unterschied?",
+    "back": "Betriebsoptimum:\n→ Minimum der Stückkosten c(x)\n→ Bedingung: c'(x) = 0 und c''(x) > 0\n→ Langfristig optimale Produktionsmenge\n\nBetriebsminimum:\n→ Minimum der variablen Stückkosten cᵥ(x)\n→ Bedingung: cᵥ'(x) = 0 und cᵥ''(x) > 0\n→ Kurzfristige Preisuntergrenze\n\nRegel: Betriebsminimum < Betriebsoptimum\n\n📝 WebApp-Tauglich: JA (Konzept)\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "kosten", "optimierung", "betriebsoptimum"]
+  },
+  {
+    "front": "Regel: Grenzkosten = Stückkosten im Betriebsoptimum",
+    "back": "Im Betriebsoptimum (Minimum der Stückkosten) gilt:\n\nC'(x) = c(x)\n\noder anders formuliert:\nC'(x) = C(x)/x\n\nDies ist die Bedingung für das Minimum!\n\nGenauso gilt im Betriebsminimum:\nC'(x) = cᵥ(x)\n\n📝 WebApp-Tauglich: JA\n✏️ Tipp: Diese Regel spart Rechenzeit in der Klausur!",
+    "card_type": "basic",
+    "tags": ["mathe", "kosten", "optimierung", "regel"]
+  },
+  {
+    "front": "Monopol: Erlösfunktion (Revenue) bei gegebener Preis-Absatz-Funktion",
+    "back": "Gegeben: Preis-Absatz-Funktion p(x)\n\nErlösfunktion: R(x) = p(x) × x\n\nBeispiel:\np(x) = 240 - 0.04x\n→ R(x) = (240 - 0.04x) × x\n→ R(x) = 240x - 0.04x²\n\nGrenzerlös: R'(x) = dR/dx\n\n📝 WebApp-Tauglich: JA",
+    "card_type": "basic",
+    "tags": ["mathe", "monopol", "erlös", "formel"]
+  },
+  {
+    "front": "Monopol: Gewinnfunktion und Gewinnmaximierung",
+    "back": "Gewinnfunktion:\nP(x) = R(x) - C(x)\n= Erlös - Kosten\n\nGewinnmaximierung:\n1. Bedingung: P'(x) = 0\n→ R'(x) = C'(x) (Grenzerlös = Grenzkosten)\n\n2. Bedingung: P''(x) < 0 (Maximum)\n\nBreak-Even: P(x) = 0\n→ R(x) = C(x)\n\n📝 WebApp-Tauglich: Konzept JA\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "monopol", "gewinn", "optimierung"]
+  },
+  {
+    "front": "Zwei-Märkte-Problem: Gesamtgewinn maximieren",
+    "back": "Gegeben: Zwei Märkte mit p₁(x₁), p₂(x₂), C₁(x₁), C₂(x₂)\n\nGesamtgewinn:\nP(x₁, x₂) = R₁(x₁) + R₂(x₂) - C₁(x₁) - C₂(x₂)\n\nOptimierung:\n∂P/∂x₁ = 0 → Optimale Menge für Markt 1\n∂P/∂x₂ = 0 → Optimale Menge für Markt 2\n\nWichtig: Die Märkte sind isoliert, daher unabhängig!\n\n📝 WebApp-Tauglich: Konzept JA\n✏️ Papier NÖTIG: Für Berechnung",
+    "card_type": "basic",
+    "tags": ["mathe", "mehrere-märkte", "optimierung", "partielle-ableitung"]
+  },
+  {
+    "front": "ÜBUNG: Zinsrechnung\n\nAnfangskapital: 80.000 €\nZinssatz: 3.5% p.a.\n\nBerechne das Endkapital nach 8 Jahren.",
+    "back": "LÖSUNG:\n\nGegeben:\nB₀ = 80.000 €\nr = 3.5% = 0.035\nt = 8 Jahre\n\nFormel: B(t) = B₀ × (1 + r)ᵗ\n\nB(8) = 80.000 × (1.035)⁸\nB(8) = 80.000 × 1.3168\nB(8) ≈ 105.344 €\n\n✏️ PAPIER EMPFOHLEN für Taschenrechner-Arbeit",
+    "card_type": "basic",
+    "tags": ["mathe", "zinsrechnung", "übung"]
+  },
+  {
+    "front": "ÜBUNG: Nachfragefunktion\n\nBei p = 30 € beträgt die Nachfrage 80 Einheiten.\nBei p = 50 € beträgt die Nachfrage 40 Einheiten.\n\nStelle die lineare Nachfragefunktion x(p) auf.",
+    "back": "LÖSUNG:\n\nPunkte: (30, 80) und (50, 40)\n\nSteigung: m = (40 - 80)/(50 - 30) = -40/20 = -2\n\nx(p) = -2p + b\n\nMit Punkt (30, 80):\n80 = -2(30) + b\n80 = -60 + b\nb = 140\n\nAntwort: x(p) = -2p + 140\n\nProbe: x(30) = -60 + 140 = 80 ✓\n\n✏️ PAPIER EMPFOHLEN",
+    "card_type": "basic",
+    "tags": ["mathe", "nachfrage", "übung"]
+  },
+  {
+    "front": "ÜBUNG: Preiselastizität\n\nNachfragefunktion: x(p) = -2p + 140\nPreis: p = 40 €\n\nBerechne die Preiselastizität.",
+    "back": "LÖSUNG:\n\nGegeben: x(p) = -2p + 140, p = 40\n\n1. Ableitung: dx/dp = -2\n\n2. Nachfrage bei p = 40:\n   x(40) = -2(40) + 140 = 60\n\n3. Elastizität:\n   ε = (dx/dp) × (p/x)\n   ε = (-2) × (40/60)\n   ε = -2 × 0.667\n   ε = -1.33\n\nInterpretation: |ε| = 1.33 > 1\n→ Elastische Nachfrage\n→ 1% Preiserhöhung → 1.33% Nachfragerückgang\n\n✏️ PAPIER NÖTIG",
+    "card_type": "basic",
+    "tags": ["mathe", "elastizität", "übung"]
+  },
+  {
+    "front": "ÜBUNG: Grenzkosten & Stückkosten\n\nKostenfunktion: C(x) = 0.2x³ - 3x² + 25x + 100\nMenge: x = 8\n\nBerechne:\na) Grenzkosten C'(8)\nb) Stückkosten c(8)",
+    "back": "LÖSUNG:\n\na) Grenzkosten:\nC'(x) = 0.6x² - 6x + 25\nC'(8) = 0.6(64) - 6(8) + 25\nC'(8) = 38.4 - 48 + 25 = 15.4 €\n\nInterpretation: Die 9. Einheit kostet ca. 15.40 €\n\nb) Stückkosten:\nC(8) = 0.2(512) - 3(64) + 25(8) + 100\nC(8) = 102.4 - 192 + 200 + 100 = 210.4 €\n\nc(8) = 210.4 / 8 = 26.3 €/Einheit\n\n✏️ PAPIER NÖTIG",
+    "card_type": "basic",
+    "tags": ["mathe", "kosten", "übung"]
+  },
+  {
+    "front": "Welche Bedingung muss gelten, damit eine Kostenfunktion progressiv steigend ist?",
+    "back": "C''(x) > 0",
+    "card_type": "multiple_choice",
+    "options": ["C'(x) > 0", "C''(x) > 0", "C'(x) < 0", "C''(x) < 0"],
+    "correct_option": 1,
+    "tags": ["mathe", "kosten", "quiz"]
+  },
+  {
+    "front": "Im Betriebsoptimum gilt:",
+    "back": "Grenzkosten = Stückkosten",
+    "card_type": "multiple_choice",
+    "options": ["Grenzkosten = 0", "Grenzkosten = Stückkosten", "Stückkosten = 0", "Grenzkosten = Fixkosten"],
+    "correct_option": 1,
+    "tags": ["mathe", "optimierung", "quiz"]
+  },
+  {
+    "front": "Bei der Gewinnmaximierung im Monopol gilt:",
+    "back": "Grenzerlös = Grenzkosten",
+    "card_type": "multiple_choice",
+    "options": ["Erlös = Kosten", "Grenzerlös = Grenzkosten", "Preis = Grenzkosten", "Gewinn = Maximum der Erlösfunktion"],
+    "correct_option": 1,
+    "tags": ["mathe", "monopol", "quiz"]
+  },
+  {
+    "front": "Eine Preiselastizität von ε = -0.6 bedeutet:",
+    "back": "Unelastische Nachfrage",
+    "card_type": "multiple_choice",
+    "options": ["Elastische Nachfrage", "Unelastische Nachfrage", "Einheitselastische Nachfrage", "Perfekt elastische Nachfrage"],
+    "correct_option": 1,
+    "tags": ["mathe", "elastizität", "quiz"]
+  },
+  {
+    "front": "Die Formel für Zinseszins lautet: B(t) = B₀ × (1 + ___)ᵗ",
+    "back": "r",
+    "card_type": "cloze",
+    "tags": ["mathe", "zinsrechnung", "formel", "lückentext"]
+  },
+  {
+    "front": "Die Preiselastizität der Nachfrage berechnet sich als: ε = (dx/dp) × (___)",
+    "back": "p/x",
+    "card_type": "cloze",
+    "tags": ["mathe", "elastizität", "formel", "lückentext"]
+  },
+  {
+    "front": "Im Gewinnmaximum gilt: ___ = C'(x)",
+    "back": "R'(x)",
+    "card_type": "cloze",
+    "tags": ["mathe", "gewinn", "optimierung", "lückentext"]
+  },
+  {
+    "front": "Die Stückkosten berechnen sich als: c(x) = ___",
+    "back": "C(x)/x",
+    "card_type": "cloze",
+    "tags": ["mathe", "kosten", "formel", "lückentext"]
+  },
+  {
+    "front": "Die Ableitung von e^(bx) ist: ___",
+    "back": "b × e^(bx)",
+    "card_type": "cloze",
+    "tags": ["mathe", "ableitung", "exponentialfunktion", "lückentext"]
+  },
+  {
+    "front": "KOMPLEXE AUFGABE: Gewinnmaximierung\n\np(x) = 200 - 0.05x\nC(x) = 0.3x² + 20x + 5000\n\nBestimme die gewinnmaximale Menge.",
+    "back": "LÖSUNGSWEG:\n\n1. Erlösfunktion:\n   R(x) = p(x) × x = (200 - 0.05x) × x\n   R(x) = 200x - 0.05x²\n\n2. Gewinnfunktion:\n   P(x) = R(x) - C(x)\n   P(x) = 200x - 0.05x² - 0.3x² - 20x - 5000\n   P(x) = -0.35x² + 180x - 5000\n\n3. Gewinnmaximierung:\n   P'(x) = -0.7x + 180 = 0\n   x = 180/0.7 ≈ 257 Einheiten\n\n4. Prüfung: P''(x) = -0.7 < 0 ✓ (Maximum)\n\n✏️ PAPIER ABSOLUT NÖTIG!\n📝 WebApp: Nur Lösungsweg merken",
+    "card_type": "basic",
+    "tags": ["mathe", "gewinn", "komplex", "übung"]
+  },
+  {
+    "front": "KLAUSUR-TIPP: Welche Schritte bei Gewinnmaximierung?",
+    "back": "STANDARD-ABLAUF:\n\n1️⃣ Erlösfunktion: R(x) = p(x) × x\n2️⃣ Gewinnfunktion: P(x) = R(x) - C(x)\n3️⃣ Ableitung: P'(x) = 0 setzen\n4️⃣ Nach x auflösen\n5️⃣ Prüfen: P''(x) < 0? (Maximum)\n6️⃣ Preis berechnen: p(x*)\n7️⃣ Gewinn berechnen: P(x*)\n\nZeitmanagement: ~10-15 Min.\n\n✏️ Immer Nebenrechnungen auf Papier!",
+    "card_type": "basic",
+    "tags": ["mathe", "klausur", "strategie"]
+  },
+  {
+    "front": "KLAUSUR-TIPP: Häufige Fehlerquellen bei Ableitungen",
+    "back": "⚠️ TYPISCHE FEHLER:\n\n1. Produktregel vergessen bei R(x) = p(x) × x\n   ✓ Besser: Erst ausmultiplizieren!\n\n2. Vorzeichen bei e^(-bx)\n   ✓ Ableitung: -b × e^(-bx)\n\n3. Kettenregel bei verschachtelten Funktionen\n   ✓ Äußere Abl. × Innere Abl.\n\n4. c/x ableiten:\n   ✓ c/x = c × x^(-1)\n   ✓ Ableitung: -c × x^(-2) = -c/x²\n\n📝 Diese Karten nochmal durchgehen vor der Klausur!",
+    "card_type": "basic",
+    "tags": ["mathe", "klausur", "fehler", "tipp"]
+  }
+]

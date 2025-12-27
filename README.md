@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudyFlow - Deine intelligente Lern-App
 
-## Getting Started
+Eine gamifizierte Lern-WebApp mit Spaced Repetition, die dir hilft, dich optimal auf deine 6 Klausuren vorzubereiten.
 
-First, run the development server:
+## Features (MVP)
 
+- ✅ Benutzer-Authentifizierung (Email/Passwort)
+- ✅ Dashboard mit Übersicht aller Fächer
+- ✅ Countdown zu jeder Klausur
+- ✅ Gamification (XP, Level, Streak)
+- ✅ Tägliche Lernziele
+- ✅ Supabase Storage für Lernmaterialien (PDFs, Dokumente)
+- ✅ Responsive Design (Mobile + Desktop)
+
+## Tech Stack
+
+- **Frontend:** Next.js 14+ (App Router), React, TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Backend:** Supabase (Auth, PostgreSQL, Storage)
+- **State Management:** Zustand
+- **Deployment:** Vercel (coming soon)
+
+## Erste Schritte
+
+### 1. Development Server starten
+
+Der Server läuft bereits auf: **http://localhost:3000**
+
+Falls nicht:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Account erstellen
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Gehe zu http://localhost:3000 (du wirst automatisch zu /login weitergeleitet)
+2. Klicke auf "Registrieren"
+3. Erstelle deinen Account mit Email + Passwort
+4. Du wirst automatisch zum Dashboard weitergeleitet
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Lernmaterialien hochladen
 
-## Learn More
+Die Struktur für deine PDFs in Supabase Storage:
 
-To learn more about Next.js, take a look at the following resources:
+```
+learning-materials/
+├── {user_id}/
+│   ├── business-law/
+│   │   ├── vorlesung-01.pdf
+│   │   └── zusammenfassung.pdf
+│   ├── hr-organisation/
+│   ├── mathematics/
+│   ├── business-economics/
+│   ├── business-english/
+│   └── information-technology/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Upload-Feature kommt in Phase 2!** Aktuell kannst du PDFs direkt in Supabase Storage hochladen.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deine 6 Fächer
 
-## Deploy on Vercel
+Alle Fächer sind bereits in der Datenbank:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Fach | Klausurdatum | Priorität |
+|------|--------------|-----------|
+| Principles of Business Law | 26.01.2026 | HOCH |
+| Human Resources and Organisation | 28.01.2026 | HOCH |
+| Mathematics for Business and Economics | 02.02.2026 | HOCH |
+| Principles of Business and Economics | 05.02.2026 | MITTEL |
+| Business English (C1) | 11.02.2026 | MITTEL |
+| Information Technology | 11.02.2026 | MITTEL |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Datenbank-Struktur
+
+### Tabellen:
+- `subjects` - Die 6 Fächer
+- `cards` - Karteikarten mit verschiedenen Typen (basic, multiple_choice, cloze)
+- `reviews` - Spaced Repetition Tracking (SM-2 Algorithmus)
+- `study_sessions` - Lern-Sessions mit XP-Tracking
+- `user_stats` - Gamification (Level, Streak, Achievements)
+- `daily_goals` - Tägliche Lernziele
+
+### Storage:
+- `learning-materials` - Bucket für PDFs und Lernmaterialien
+
+## Nächste Schritte (MVP Phase 2)
+
+1. **Flashcard-System implementieren**
+   - Karteikarten erstellen/bearbeiten/löschen
+   - Verschiedene Karten-Typen (Basic, Multiple Choice, Lückentext)
+   - Spaced Repetition Algorithmus (SM-2)
+
+2. **Lern-Session implementieren**
+   - Karten durchgehen
+   - "Wusste ich" / "Wusste ich nicht" Buttons
+   - XP-Vergabe
+   - Session-Tracking
+
+3. **Upload-Feature**
+   - PDFs hochladen
+   - Automatische Ordner-Struktur nach Fächern
+
+4. **Statistiken-Seite**
+   - Lernzeit pro Tag/Woche
+   - Fortschritt pro Fach
+   - Streak-Kalender
+
+## Projekt-Struktur
+
+```
+lernapp/
+├── app/
+│   ├── (auth)/
+│   │   ├── login/page.tsx
+│   │   └── register/page.tsx
+│   └── (dashboard)/
+│       ├── layout.tsx
+│       └── dashboard/page.tsx
+├── components/
+│   └── ui/              # shadcn components
+├── lib/
+│   └── supabase/
+│       ├── client.ts    # Client-side Supabase
+│       └── server.ts    # Server-side Supabase
+├── types/
+│   └── database.ts      # TypeScript Types
+└── middleware.ts        # Auth Protection
+```
+
+## Wichtige Befehle
+
+```bash
+npm run dev          # Development Server
+npm run build        # Production Build
+npm run start        # Production Server
+npm run lint         # ESLint
+```
+
+## Environment Variables
+
+Die `.env.local` Datei enthält deine Supabase Credentials:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://ifmgedepkblpgaheohll.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_...
+```
+
+## Supabase Dashboard
+
+Verwalte deine Datenbank direkt über:
+https://supabase.com/dashboard/project/ifmgedepkblpgaheohll
+
+## Fragen?
+
+Checke die Hauptdokumentation in der Projektbeschreibung oder frag einfach!
+
+Viel Erfolg beim Lernen! 🚀📚

@@ -1,0 +1,192 @@
+[
+  {
+    "front": "Was ist der Unterschied zwischen intrinsischer und extrinsischer Motivation?",
+    "back": "Intrinsische Motivation kommt von innen (z.B. Freude an der Arbeit selbst, persönliches Interesse). Extrinsische Motivation kommt von außen (z.B. Gehalt, Boni, Anerkennung).",
+    "card_type": "basic",
+    "tags": ["motivation", "grundlagen"]
+  },
+  {
+    "front": "Nenne die 5 Ebenen der Maslowschen Bedürfnispyramide (von unten nach oben)",
+    "back": "1. Physiologische Bedürfnisse (Hunger, Durst)\n2. Sicherheitsbedürfnisse (Schutz, Stabilität)\n3. Soziale Bedürfnisse (Zugehörigkeit, Liebe)\n4. Wertschätzungsbedürfnisse (Anerkennung, Status)\n5. Selbstverwirklichung (persönliches Wachstum)",
+    "card_type": "basic",
+    "tags": ["motivation", "maslow", "theorie"]
+  },
+  {
+    "front": "Wie viele Basic Desires umfasst das Reiss Profile?",
+    "back": "16 grundlegende Bedürfnisse (Basic Desires)",
+    "card_type": "basic",
+    "tags": ["motivation", "reiss-profile"]
+  },
+  {
+    "front": "Nenne mindestens 8 der 16 Basic Desires aus dem Reiss Profile",
+    "back": "1. Power (Macht/Einfluss)\n2. Independence (Unabhängigkeit)\n3. Curiosity (Neugier)\n4. Acceptance (Akzeptanz)\n5. Order (Ordnung)\n6. Saving (Sammeln)\n7. Honor (Ehre/Loyalität)\n8. Idealism (Idealismus)\n9. Social contact (Sozialer Kontakt)\n10. Family (Familie)\n11. Status\n12. Vengeance (Vergeltung/Wettbewerb)\n13. Beauty (Schönheit)\n14. Eating (Essen)\n15. Physical Activity (Körperliche Aktivität)\n16. Tranquility (Ruhe)",
+    "card_type": "basic",
+    "tags": ["motivation", "reiss-profile"]
+  },
+  {
+    "front": "Was besagt die Equity Theory (Adams)?",
+    "back": "Menschen vergleichen ihr Input/Output-Verhältnis mit dem anderer. Bei wahrgenommener Ungerechtigkeit (Inequity) entsteht Demotivation. Wichtig: Es geht um subjektive Wahrnehmung, nicht objektive Fairness.",
+    "card_type": "basic",
+    "tags": ["motivation", "equity-theory", "theorie"]
+  },
+  {
+    "front": "Was bedeutet 'Flow' nach Czikszentmihalyi?",
+    "back": "Flow ist ein optimaler Erlebniszustand, bei dem die Herausforderung perfekt zu den eigenen Fähigkeiten passt. Man ist vollständig in die Aufgabe vertieft, Zeit wird anders wahrgenommen, und es entsteht intrinsische Motivation.",
+    "card_type": "basic",
+    "tags": ["motivation", "flow", "theorie"]
+  },
+  {
+    "front": "Was sind die 4 Elemente des Ikigai-Konzepts?",
+    "back": "1. What you LOVE (Passion)\n2. What the world NEEDS (Mission)\n3. What you can be PAID for (Profession)\n4. What you are GOOD at (Vocation)\n\nIkigai ist die Schnittmenge aller vier Bereiche.",
+    "card_type": "basic",
+    "tags": ["motivation", "ikigai", "theorie"]
+  },
+  {
+    "front": "Was ist Confirmation Bias?",
+    "back": "Die Tendenz, Informationen so zu suchen, zu interpretieren und zu gewichten, dass sie die eigenen Vorannahmen bestätigen. Man überbetont Evidenz, die zur bevorzugten Überzeugung passt.",
+    "card_type": "basic",
+    "tags": ["bias", "kognitive-verzerrung"]
+  },
+  {
+    "front": "Was ist Availability Bias?",
+    "back": "Die Tendenz, die Wahrscheinlichkeit von Ereignissen anhand leicht verfügbarer Beispiele zu beurteilen. Leicht erinnerbare oder emotional einprägsame Fälle werden als häufiger eingeschätzt als sie tatsächlich sind.",
+    "card_type": "basic",
+    "tags": ["bias", "kognitive-verzerrung"]
+  },
+  {
+    "front": "Was ist der Fundamental Attribution Error?",
+    "back": "Die Tendenz, das Verhalten anderer Personen auf deren Persönlichkeit/Charakter zurückzuführen (dispositional), während situative Faktoren unterschätzt werden. Bei eigenem Verhalten wird hingegen die Situation als Erklärung bevorzugt.",
+    "card_type": "basic",
+    "tags": ["bias", "kognitive-verzerrung"]
+  },
+  {
+    "front": "Was ist der Halo Effect?",
+    "back": "Die Tendenz, eine Person oder Sache aufgrund eines einzelnen positiven Merkmals (z.B. Erfolgsgeschichte, Attraktivität) insgesamt positiver zu bewerten. Ein Merkmal überstrahlt (Halo = Heiligenschein) andere Eigenschaften.",
+    "card_type": "basic",
+    "tags": ["bias", "kognitive-verzerrung", "halo-effect"]
+  },
+  {
+    "front": "Nenne die 3 klassischen Organisationsformen (Archetypes)",
+    "back": "1. Functional Organization (funktionale Organisation nach Aufgaben)\n2. Divisional Organization (Spartenorganisation nach Produkten/Regionen)\n3. Matrix Organization (Kombination aus funktional und divisional)",
+    "card_type": "basic",
+    "tags": ["organisation", "strukturen"]
+  },
+  {
+    "front": "Was sind die Vor- und Nachteile der Matrix-Organisation?",
+    "back": "Vorteile: Flexibilität, bessere Ressourcennutzung, Wissensaustausch\nNachteile: Komplexe Kommunikation, doppelte Unterstellung, Konflikpotenzial, hoher Koordinationsaufwand",
+    "card_type": "basic",
+    "tags": ["organisation", "matrix"]
+  },
+  {
+    "front": "Nenne die 4 Phasen des Tuckman Team Development Models",
+    "back": "1. Forming (Orientierung, höflich)\n2. Storming (Konflikt, Machtkämpfe)\n3. Norming (Regeln werden etabliert, Zusammenarbeit)\n4. Performing (Hohe Leistung, effektive Zusammenarbeit)\n\n(Optional: 5. Adjourning = Auflösung)",
+    "card_type": "basic",
+    "tags": ["teamwork", "team-entwicklung", "tuckman"]
+  },
+  {
+    "front": "Was sind die 4 Leadership-Stile nach Hersey & Blanchard?",
+    "back": "1. Directing (S1): Hohe Aufgaben-, niedrige Beziehungsorientierung\n2. Coaching (S2): Hohe Aufgaben- UND Beziehungsorientierung\n3. Supporting (S3): Niedrige Aufgaben-, hohe Beziehungsorientierung\n4. Delegating (S4): Niedrige Aufgaben- UND Beziehungsorientierung\n\nWird angepasst an Reifegrad der Mitarbeiter.",
+    "card_type": "basic",
+    "tags": ["leadership", "hersey-blanchard"]
+  },
+  {
+    "front": "Nenne die 8 Schritte von Kotter's Change Management Model",
+    "back": "1. Create urgency (Dringlichkeit)\n2. Form a powerful coalition (Führungskoalition)\n3. Create a vision\n4. Communicate the vision\n5. Empower action (Hindernisse beseitigen)\n6. Create quick wins\n7. Build on the change (Erfolge konsolidieren)\n8. Anchor the changes (Verankerung in Kultur)",
+    "card_type": "basic",
+    "tags": ["change-management", "kotter"]
+  },
+  {
+    "front": "Was ist der Unterschied zwischen Diversity und Inclusion?",
+    "back": "Diversity = Vielfalt der Menschen (demografische Unterschiede wie Alter, Geschlecht, Herkunft)\nInclusion = Das aktive Einbeziehen und Wertschätzen dieser Vielfalt, sodass alle ihr Potenzial entfalten können\n\nMetapher: 'Diversity is being invited to the party, Inclusion is being asked to dance'",
+    "card_type": "basic",
+    "tags": ["diversity", "inclusion"]
+  },
+  {
+    "front": "Welche Faktoren umfasst die PESTEL-Analyse?",
+    "back": "P - Political (politische Faktoren)\nE - Economic (wirtschaftliche Faktoren)\nS - Social (soziale/kulturelle Faktoren)\nT - Technological (technologische Faktoren)\nE - Environmental (ökologische Faktoren)\nL - Legal (rechtliche Faktoren)",
+    "card_type": "basic",
+    "tags": ["strategie", "pestel", "analyse"]
+  },
+  {
+    "front": "Was sind die Hauptziele des Recruiting-Prozesses?",
+    "back": "1. Die richtigen Kandidaten finden (Right Fit)\n2. Ausreichend qualifizierte Bewerber anziehen\n3. Positive Candidate Experience schaffen\n4. Kosten und Zeit minimieren\n5. Employer Branding stärken",
+    "card_type": "basic",
+    "tags": ["recruiting", "personalplanung"]
+  },
+  {
+    "front": "Nenne 4 wichtige Aspekte der Cross-Cultural Management",
+    "back": "1. Cultural Awareness (Bewusstsein für kulturelle Unterschiede)\n2. Hofstede's Cultural Dimensions (z.B. Power Distance, Individualism)\n3. Kommunikationsstile (high-context vs. low-context)\n4. Umgang mit Zeit (monochronisch vs. polychronisch)",
+    "card_type": "basic",
+    "tags": ["cross-cultural", "international"]
+  },
+  {
+    "front": "Welche Motivation-Theorie erklärt: 'Menschen sind demotiviert, wenn sie ihre Belohnung im Vergleich zu anderen als unfair empfinden'?",
+    "back": "Equity Theory (Adams)",
+    "card_type": "multiple_choice",
+    "options": ["Maslow's Hierarchy", "Equity Theory (Adams)", "Herzberg's Two-Factor Theory", "Expectancy Theory (Vroom)"],
+    "correct_option": 1,
+    "tags": ["motivation", "theorie", "quiz"]
+  },
+  {
+    "front": "Welcher Bias führt dazu, dass ein Manager einen Mitarbeiter aufgrund einer guten Präsentation insgesamt als kompetent bewertet?",
+    "back": "Halo Effect",
+    "card_type": "multiple_choice",
+    "options": ["Confirmation Bias", "Halo Effect", "Availability Bias", "Anchoring Bias"],
+    "correct_option": 1,
+    "tags": ["bias", "quiz"]
+  },
+  {
+    "front": "In welcher Phase des Tuckman-Modells entstehen typischerweise Konflikte und Machtkämpfe im Team?",
+    "back": "Storming",
+    "card_type": "multiple_choice",
+    "options": ["Forming", "Storming", "Norming", "Performing"],
+    "correct_option": 1,
+    "tags": ["teamwork", "tuckman", "quiz"]
+  },
+  {
+    "front": "Welche Organisationsform kombiniert funktionale und divisionale Strukturen?",
+    "back": "Matrix Organization",
+    "card_type": "multiple_choice",
+    "options": ["Functional Organization", "Divisional Organization", "Matrix Organization", "Holding Organization"],
+    "correct_option": 2,
+    "tags": ["organisation", "quiz"]
+  },
+  {
+    "front": "Wie viele Schritte umfasst Kotter's Change Management Model?",
+    "back": "8 Schritte",
+    "card_type": "multiple_choice",
+    "options": ["5 Schritte", "6 Schritte", "8 Schritte", "10 Schritte"],
+    "correct_option": 2,
+    "tags": ["change-management", "kotter", "quiz"]
+  },
+  {
+    "front": "Das Reiss Profile identifiziert ___ grundlegende menschliche Bedürfnisse (Basic Desires).",
+    "back": "16",
+    "card_type": "cloze",
+    "tags": ["motivation", "reiss-profile", "lueckentext"]
+  },
+  {
+    "front": "Die ___ Theory besagt, dass Menschen ihr Input/Output-Verhältnis mit anderen vergleichen.",
+    "back": "Equity",
+    "card_type": "cloze",
+    "tags": ["motivation", "theorie", "lueckentext"]
+  },
+  {
+    "front": "Der ___ Bias beschreibt die Tendenz, nur nach Informationen zu suchen, die die eigene Meinung bestätigen.",
+    "back": "Confirmation",
+    "card_type": "cloze",
+    "tags": ["bias", "lueckentext"]
+  },
+  {
+    "front": "In der ___ Phase des Tuckman-Modells arbeitet das Team auf höchstem Leistungsniveau.",
+    "back": "Performing",
+    "card_type": "cloze",
+    "tags": ["teamwork", "tuckman", "lueckentext"]
+  },
+  {
+    "front": "Ikigai besteht aus ___ Elementen: what you love, what you're good at, what the world needs, und what you can be paid for.",
+    "back": "4",
+    "card_type": "cloze",
+    "tags": ["motivation", "ikigai", "lueckentext"]
+  }
+]
